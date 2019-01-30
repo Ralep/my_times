@@ -23,3 +23,37 @@ header {
   .logo span {
     padding-left: 10px;
   }
+
+div {
+  border: 1px solid black;
+}
+
+#main {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  }
+
+.headline {
+  padding: 5px 0px;
+}
+
+.news {
+  margin: 5px 0px;
+}
+
+.column.large {
+  width: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  }
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
+}
