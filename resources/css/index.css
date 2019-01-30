@@ -46,7 +46,6 @@ div {
   width: 630px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: stretch;
   }
 
@@ -56,4 +55,44 @@ div {
 
 .column.small {
   width: 240px;
+}
+
+.image {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  display: flex;
+}
+
+.news {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.image {
+  height: 300px;
+}
+
+.main-story {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+  display: flex;
+  background-image: url("../images/main-story.png");
+  height: 300px;
+}
+
+.image.earth {
+  background-image: url("../images/fall-season.png");
+}
+
+.image.camera {
+  background-image: url("../images/hipster-cameraman.png");
+}
+
+.image.cat {
+  background-image: url("../images/cat.png");
 }
