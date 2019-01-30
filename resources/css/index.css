@@ -44,9 +44,9 @@ div {
 
 .column.large {
   width: 630px;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
+  display: inline-flex;
+  flex-wrap: wrap;
+  align-content: center;
   }
 
 .column.medium {
@@ -69,10 +69,12 @@ div {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  display: block;
 }
 
 .image {
   height: 300px;
+  text-align: center;
 }
 
 .main-story {
@@ -95,4 +97,8 @@ div {
 
 .image.cat {
   background-image: url("../images/cat.png");
+}
+
+.rows {
+  display: inline-flex;
 }
